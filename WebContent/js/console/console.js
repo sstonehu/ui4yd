@@ -7,7 +7,7 @@ FusionCharts.ready(function() {
 	var revenueChart = new FusionCharts({
 		type : 'column2d',
 		renderAt : 'revenue-time',
-		width : "400",
+		width : "450",
 		height : "300",
 		dataFormat : 'json',
 		dataSource : {
@@ -226,3 +226,5 @@ FusionCharts.ready(function() {
     }).render();
 
 });
+
+$('#example').tooltip(options);

@@ -4,10 +4,16 @@
 	padding-bottom: 5px;
 }
 
+.header{
+	padding-top:10px;
+}
+
 h2,.h2 {
 	font-size: 14px;
 	font-weight: bold;
 	color: #003333;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .box {
@@ -22,8 +28,8 @@ h2,.h2 {
 
 .table>thead {
 	border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-	background-color: ;
+	border-top-right-radius: 3px;
+	background-color:;
 }
 
 .table>tbody>tr>td {

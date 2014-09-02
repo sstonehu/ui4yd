@@ -146,7 +146,7 @@
 
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 				<div id="ongoing-case" class="col-xs-6 col-sm-8 box ">
-					<h2 class="sub-header">进行中的案件</h2>
+					<h2 class="sub-header header">进行中的案件</h2>
 					<div class="table-responsive">
 						<table class="table table-striped table-bordered">
 							<thead>
@@ -187,7 +187,7 @@
 									<td>民事</td>
 									<td>李某</td>
 									<td>一审</td>
-									<td><a class="warning icon-in-table"><span
+									<td><a class="warning icon-in-table" ><span
 											class="glyphicon glyphicon-warning-sign"></span></a>等待结案</td>
 									<td>被告</td>
 									<td>2014年5月1日</td>
@@ -198,7 +198,7 @@
 					</div>
 				</div>
 				<div id="ongoing-client" class="col-xs-6 col-sm-4 box">
-					<h2 class="sub-header">我的客户</h2>
+					<h2 class="sub-header header">我的客户</h2>
 					<div class="table-responsive">
 						<table class="table table-striped table-bordered">
 							<thead>
@@ -233,7 +233,7 @@
 					</div>
 				</div>
 
-				<div id="ongoing-task" class=" col-sm-12 box">
+				<div id="ongoing-task" class=" col-sm-7 box">
 					<h2 class="sub-header">当前待办</h2>
 					<div class="table-responsive">
 						<table class="table table-striped table-bordered">
@@ -271,6 +271,46 @@
 									<td>李某</td>
 									<td>李某离婚案</td>
 									<td>李某</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<div id="ongoing-money" class=" col-sm-5 box">
+					<h2 class="sub-header">进账详情</h2>
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>案件</th>
+									<th>进账</th>
+									<th>状态</th>
+									<th>计提时间</th>
+									<th>实收时间</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>XX代理案</td>
+									<td>3500</td>
+									<td>计提</td>
+									<td>2014-06-12</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>XX案</td>
+									<td>3500</td>
+									<td>到账</td>
+									<td>2014-06-15</td>
+									<td>2014-08-22</td>
+								</tr>
+								<tr>
+									<td>XX代理案</td>
+									<td>3500</td>
+									<td>计提</td>
+									<td>2014-06-12</td>
+									<td></td>
 								</tr>
 							</tbody>
 						</table>
