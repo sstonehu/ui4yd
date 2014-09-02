@@ -145,10 +145,10 @@
 
 
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-				<div id="ongoing-case" class="col-xs-6 col-sm-6 ">
-					<h2 class="sub-header">我的案件</h2>
+				<div id="ongoing-case" class="col-xs-6 col-sm-8 box ">
+					<h2 class="sub-header">进行中的案件</h2>
 					<div class="table-responsive">
-						<table class="table table-striped">
+						<table class="table table-striped table-bordered">
 							<thead>
 								<tr>
 									<th>案件名称</th>
@@ -187,7 +187,8 @@
 									<td>民事</td>
 									<td>李某</td>
 									<td>一审</td>
-									<td>已受理</td>
+									<td><a class="warning icon-in-table"><span
+											class="glyphicon glyphicon-warning-sign"></span></a>等待结案</td>
 									<td>被告</td>
 									<td>2014年5月1日</td>
 									<td>洪山区法院</td>
@@ -196,81 +197,86 @@
 						</table>
 					</div>
 				</div>
-				<h2 class="sub-header">我的客户</h2>
-				<div class="table-responsive">
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>客户名称</th>
-								<th>客户属性</th>
-								<th>所属行业</th>
-								<th>联系人</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>李某</td>
-								<td>个人客户</td>
-								<td></td>
-								<td>李某</td>
-							</tr>
-							<tr>
-								<td>李某</td>
-								<td>个人客户</td>
-								<td></td>
-								<td>李某</td>
-							</tr>
-							<tr>
-								<td>李某</td>
-								<td>个人客户</td>
-								<td></td>
-								<td>李某</td>
-							</tr>
-						</tbody>
-					</table>
+				<div id="ongoing-client" class="col-xs-6 col-sm-4 box">
+					<h2 class="sub-header">我的客户</h2>
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>客户名称</th>
+									<th>客户属性</th>
+									<th>所属行业</th>
+									<th>联系人</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>李某</td>
+									<td>个人客户</td>
+									<td></td>
+									<td>李某</td>
+								</tr>
+								<tr>
+									<td>李某</td>
+									<td>个人客户</td>
+									<td></td>
+									<td>李某</td>
+								</tr>
+								<tr>
+									<td>李某</td>
+									<td>个人客户</td>
+									<td></td>
+									<td>李某</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 
-				<h2 class="sub-header">我的工作任务</h2>
-				<div class="table-responsive">
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>完成日期</th>
-								<th>完成状态</th>
-								<th>主题</th>
-								<th>相关人员</th>
-								<th>相关事项</th>
-								<th>客户名称</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>2014年5月2日</td>
-								<td>未开始</td>
-								<td>打电话给李某</td>
-								<td>李某</td>
-								<td>李某离婚案</td>
-								<td>李某</td>
-							</tr>
-							<tr>
-								<td>2014年5月2日</td>
-								<td>未开始</td>
-								<td>打电话给李某</td>
-								<td>李某</td>
-								<td>李某离婚案</td>
-								<td>李某</td>
-							</tr>
-							<tr>
-								<td>2014年5月2日</td>
-								<td>未开始</td>
-								<td>打电话给李某</td>
-								<td>李某</td>
-								<td>李某离婚案</td>
-								<td>李某</td>
-							</tr>
-						</tbody>
-					</table>
+				<div id="ongoing-task" class=" col-sm-12 box">
+					<h2 class="sub-header">当前待办</h2>
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>完成日期</th>
+									<th>完成状态</th>
+									<th>主题</th>
+									<th>相关人员</th>
+									<th>相关事项</th>
+									<th>客户名称</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2014年5月2日</td>
+									<td>未开始</td>
+									<td>打电话给李某</td>
+									<td>李某</td>
+									<td>李某离婚案</td>
+									<td>李某</td>
+								</tr>
+								<tr>
+									<td>2014年5月2日</td>
+									<td>未开始</td>
+									<td>打电话给李某</td>
+									<td>李某</td>
+									<td>李某离婚案</td>
+									<td>李某</td>
+								</tr>
+								<tr>
+									<td>2014年5月2日</td>
+									<td>未开始</td>
+									<td>打电话给李某</td>
+									<td>李某</td>
+									<td>李某离婚案</td>
+									<td>李某</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
+
 
 				<h1 class="page-header"></h1>
 				<h2 class="sub-header">我的个人仪表盘</h2>
