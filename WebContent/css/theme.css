@@ -1,5 +1,11 @@
 @CHARSET "UTF-8";
 /*覆盖原有样式*/
+.navbar-brand {
+/* 	background: url(../images/ydlog_short.jpg) no-repeat scroll left center/60px */
+/* 		60px; */
+/* 	padding-left: 70px; */
+}
+
 .sub-header {
 	padding-bottom: 5px;
 }
