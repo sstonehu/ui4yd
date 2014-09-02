@@ -157,6 +157,12 @@ h2,.h2 {
 	border-color: #1abc9c;
 }
 
+/*表格逐行换色*/
+.table-striped>tbody>tr:nth-child(2n+1)>td,.table-striped>tbody>tr:nth-child(2n+1)>th
+	{
+	background-color: #FFFFEA;
+}
+
 /*警告、消息等颜色*/
 .warning {
 	color: red;
