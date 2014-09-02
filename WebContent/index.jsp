@@ -142,57 +142,59 @@
 					</div>
 				</ul>
 			</div>
-			
-				
+
+
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<h2 class="sub-header">我的案件</h2>
-				<div class="table-responsive">
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>案件名称</th>
-								<th>案件类型</th>
-								<th>客户名称</th>
-								<th>委托范围</th>
-								<th>案件状态</th>
-								<th>代理何方</th>
-								<th>收案日期</th>
-								<th>受理机构</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>李某离婚案</td>
-								<td>民事</td>
-								<td>李某</td>
-								<td>一审</td>
-								<td>已受理</td>
-								<td>被告</td>
-								<td>2014年5月1日</td>
-								<td>洪山区法院</td>
-							</tr>
-							<tr>
-								<td>李某离婚案</td>
-								<td>民事</td>
-								<td>李某</td>
-								<td>一审</td>
-								<td>已受理</td>
-								<td>被告</td>
-								<td>2014年5月1日</td>
-								<td>洪山区法院</td>
-							</tr>		
-							<tr>
-								<td>李某离婚案</td>
-								<td>民事</td>
-								<td>李某</td>
-								<td>一审</td>
-								<td>已受理</td>
-								<td>被告</td>
-								<td>2014年5月1日</td>
-								<td>洪山区法院</td>
-							</tr>									
-						</tbody>
-					</table>
+				<div id="ongoing-case" class="col-xs-6 col-sm-6 ">
+					<h2 class="sub-header">我的案件</h2>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>案件名称</th>
+									<th>案件类型</th>
+									<th>客户名称</th>
+									<th>委托范围</th>
+									<th>案件状态</th>
+									<th>代理何方</th>
+									<th>收案日期</th>
+									<th>受理机构</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>李某离婚案</td>
+									<td>民事</td>
+									<td>李某</td>
+									<td>一审</td>
+									<td>已受理</td>
+									<td>被告</td>
+									<td>2014年5月1日</td>
+									<td>洪山区法院</td>
+								</tr>
+								<tr>
+									<td>李某离婚案</td>
+									<td>民事</td>
+									<td>李某</td>
+									<td>一审</td>
+									<td>已受理</td>
+									<td>被告</td>
+									<td>2014年5月1日</td>
+									<td>洪山区法院</td>
+								</tr>
+								<tr>
+									<td>李某离婚案</td>
+									<td>民事</td>
+									<td>李某</td>
+									<td>一审</td>
+									<td>已受理</td>
+									<td>被告</td>
+									<td>2014年5月1日</td>
+									<td>洪山区法院</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 				<h2 class="sub-header">我的客户</h2>
 				<div class="table-responsive">
@@ -202,32 +204,32 @@
 								<th>客户名称</th>
 								<th>客户属性</th>
 								<th>所属行业</th>
-								<th>联系人</th>	
+								<th>联系人</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>李某</td>
 								<td>个人客户</td>
-								<td>  </td>
+								<td></td>
 								<td>李某</td>
-							</tr>	
+							</tr>
 							<tr>
 								<td>李某</td>
 								<td>个人客户</td>
-								<td>  </td>
+								<td></td>
 								<td>李某</td>
-							</tr>	
+							</tr>
 							<tr>
 								<td>李某</td>
 								<td>个人客户</td>
-								<td>  </td>
+								<td></td>
 								<td>李某</td>
-							</tr>							
+							</tr>
 						</tbody>
 					</table>
 				</div>
-				
+
 				<h2 class="sub-header">我的工作任务</h2>
 				<div class="table-responsive">
 					<table class="table table-striped">
@@ -238,7 +240,7 @@
 								<th>主题</th>
 								<th>相关人员</th>
 								<th>相关事项</th>
-								<th>客户名称</th>	
+								<th>客户名称</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -249,7 +251,7 @@
 								<td>李某</td>
 								<td>李某离婚案</td>
 								<td>李某</td>
-							</tr>	
+							</tr>
 							<tr>
 								<td>2014年5月2日</td>
 								<td>未开始</td>
@@ -257,18 +259,19 @@
 								<td>李某</td>
 								<td>李某离婚案</td>
 								<td>李某</td>
-							</tr>	<tr>
+							</tr>
+							<tr>
 								<td>2014年5月2日</td>
 								<td>未开始</td>
 								<td>打电话给李某</td>
 								<td>李某</td>
 								<td>李某离婚案</td>
 								<td>李某</td>
-							</tr>							
+							</tr>
 						</tbody>
 					</table>
 				</div>
-				
+
 				<h1 class="page-header"></h1>
 				<h2 class="sub-header">我的个人仪表盘</h2>
 				<div class="row placeholders">
@@ -279,8 +282,8 @@
 					<div id="revenue-area" class="col-xs-6 col-sm-4 placeholder">
 						营收地域分析在此显示</div>
 				</div>
-			
-				
+
+
 			</div>
 		</div>
 	</div>
