@@ -300,18 +300,26 @@
 					</table>	
 				</div>
 				
+				<!-- 联系人信息此处应当有“新建联系人信息”按钮入口 -->
 				<h2 class="sub-header">客户联系人信息</h2>
+				
 				<div class="table-responsive">
 					<table class="table table-striped">
 						<thead>
+						
 							<tr>
-							<th>创建人</th>
-							<td>主任律师</td>
-							<td>2104.09.02 11:30</td>
+							<th>操作</th><!-- 提供对联系人信息进行编辑 or 删除的快捷操作 -->
+							<th>联系人姓名</th>
+							<th>联系人职务</th>
+							<th>电子邮件</th>
+							<th>电话</th>			
+							</tr>
 							
-							<th>最后修改人</th>
-							<td>主任律师</td>
-							<td>2104.09.02 11:30</td>			
+							<tr>
+							<td>编辑|删除</td>
+							<td>联系人职务</td>
+							<th>电子邮件</th>
+							<th>电话</th>			
 							</tr>
 							
 						</thead>
