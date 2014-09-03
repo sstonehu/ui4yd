@@ -1,7 +1,47 @@
 @CHARSET "UTF-8";
+/*覆盖原有样式*/
+.navbar-brand {
+/* 	background: url(../images/ydlog_short.jpg) no-repeat scroll left center/60px */
+/* 		60px; */
+/* 	padding-left: 70px; */
+}
+
+.sub-header {
+	padding-bottom: 5px;
+}
+
+.header {
+	padding-top: 10px;
+}
+
+h2,.h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #003333;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.box {
+	padding-left: 2px;
+	padding-right: 5px;
+	backgroud-color: #CCFFCC;
+}
 
 .navbar-inverse {
 	background-color: #003333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.table>thead {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color:;
+}
+
+.table>tbody>tr>td {
+	padding: 4px;
 }
 
 /*左侧公告消息面板 */
@@ -121,4 +161,20 @@
 	background: url(../images/flat-ui/todo/search.png) no-repeat scroll 92%
 		center/16px 16px;
 	border-color: #1abc9c;
+}
+
+/*表格逐行换色*/
+.table-striped>tbody>tr:nth-child(2n+1)>td,.table-striped>tbody>tr:nth-child(2n+1)>th
+	{
+	background-color: #FFFFEA;
+}
+
+/*警告、消息等颜色*/
+.warning {
+	color: red;
+}
+
+.icon-in-table {
+	font-size: 14px;
+	margin-right: 2px;
 }
